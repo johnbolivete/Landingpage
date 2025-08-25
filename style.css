@@ -56,9 +56,14 @@ button {
 }
 
 .img-info {
-    background-color: #F9FAF8;
+    border: solid 2px #F9FAF8;
 }
 
 .text-info {
+    width: 400px;
+}
+
+.lion-img {
+    height: auto;
     width: 400px;
 }
