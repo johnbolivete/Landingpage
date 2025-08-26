@@ -5,6 +5,8 @@
 }
 body{
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 .header {
     display: flex;
@@ -101,6 +103,8 @@ button {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    flex: 1;
+    gap: 30px;
 }
 .body-section h1 {
     margin-bottom: 30px;
