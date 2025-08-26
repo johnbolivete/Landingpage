@@ -154,3 +154,10 @@ button {
 .notif-subtext {
     font-weight: bold;
 }
+
+.footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
