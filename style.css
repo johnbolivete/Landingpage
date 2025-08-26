@@ -52,7 +52,7 @@ ul a {
 button {
     padding: 10px;
     background-color: #3882F6;
-    border-radius: 15px;
+    border-radius: 10px;
     width: 100px;
     color: white
 }
@@ -97,7 +97,11 @@ button {
     width: 150px;
     text-align: center;
 }
-
+.body-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 .body-section h1 {
     margin-bottom: 30px;
 }
@@ -129,4 +133,24 @@ button {
 
 .quotee {
     align-self: flex-end;
+}
+
+.notication-section {
+    display: flex;
+    background-color: #3882F6;
+    gap: 50px;
+    justify-content: center;
+    padding: 30px;
+    width: 800px;
+    align-self: center;
+    border-radius: 10px;
+    
+}
+
+.notification-text p {
+    color: #F9FAF8;
+}
+
+.notif-subtext {
+    font-weight: bold;
 }
