@@ -166,3 +166,7 @@ button {
     background-color: #1F2937;
     color: #F9FAF8;
 }
+
+.notif-btn {
+    border: solid 1px #F9FAF8;
+}
